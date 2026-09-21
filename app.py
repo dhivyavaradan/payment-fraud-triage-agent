@@ -107,9 +107,7 @@ def run_fraud_agent(
     # Model priority list
     models_to_try = [
         'gemini-3.6-flash',
-        'gemini-3.5-flash',
-        'gemini-2.5-flash'
-    ]
+        'gemini-3.5-flash'    ]
 
     last_exception = None
 
